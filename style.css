@@ -1,0 +1,31 @@
+body{
+    width: 940px;
+    height: 100%;
+}
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 5px solid black;
+}
+
+.border-box{
+    width: 200px;
+    height: 200px;
+    
+    padding: 20px;
+    box-sizing: border-box;
+    border: 10px dotted black;
+
+}
+
+.border{
+    width: 200px;
+    height: 200px;
+    border: 5px dashed black;
+}
+
+section div{
+    display: inline-block;
+}
